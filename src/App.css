@@ -22,13 +22,26 @@
   font-size: large;
 }
 .MainDiv{
-  width: 100%
+  width: 80%;
+  display:flex;
+  justify-content: center;
+  margin-left: 10%
 
 }
-.SignInDiv{
-  width: 50%;
-  text-align: center;
+.SignUpDiv{
+  border: 1px solid black;
+  width: 400px;
+  margin: 5%;
+  float: left;
 }
+.SignInDiv{
+  border: 1px solid black;
+  width: 400px;
+  margin: 5%;
+  float: right;
+
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
